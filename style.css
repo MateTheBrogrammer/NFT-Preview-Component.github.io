@@ -1,0 +1,157 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    z-index: -100;
+}
+
+.content {
+    width: 360px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.pic {
+    width: 85%;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 10px;
+}
+
+.mainPicture {
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    width: 306px;
+    height: 306px;
+    border-radius: 10px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.mainPicture:hover .hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.mainPicture:hover .view {
+    opacity: 1;
+}
+
+
+.title {
+    position: absolute;
+    top: 335px;
+    left: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.describe {
+    position: absolute;
+    top: 385px;
+    left: 25px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.ethIcon {
+    position: absolute;
+    top: 475px;
+    left: 25px;
+}
+
+.ethPrice {
+    position: absolute;
+    top: 458px;
+    left: 45px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+.timeIcon {
+    position: absolute;
+    top: 475px;
+    right: 110px;
+}
+
+.time {
+    position: absolute;
+    top: 456px;
+    right: 30px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+}
+
+.hr {
+    position: absolute;
+    top: 510px;
+    width: 85%;
+    left: 25px;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.pfp {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.madeby {
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.name {
+    text-decoration: none;
+    color: white;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.content {
+    -webkit-box-shadow: 0px 0px 61px -10px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 0px 0px 61px -10px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 61px -10px rgba(0, 0, 0, 0.37);
+}
